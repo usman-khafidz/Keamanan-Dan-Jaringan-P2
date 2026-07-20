@@ -1,0 +1,19 @@
+# Nmap 7.99 scan initiated Mon Jul 20 09:13:46 2026 as: nmap -Pn -A -oN Nmap_nasa.txt www.nasa.gov
+Nmap scan report for www.nasa.gov (192.0.66.108)
+Host is up (0.39s latency).
+Other addresses for www.nasa.gov (not scanned): 2a04:fa87:fffd::c000:426c
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE  VERSION
+80/tcp  open  http     nginx
+443/tcp open  ssl/http nginx
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Android 7.1.2 (Linux 3.10) (96%), Citrix Access Gateway VPN gateway (88%), Juniper SA4000 SSL VPN gateway (IVE OS 7.0) (88%), IPCop 2.0 (Linux 2.6.32) (88%), Linux 2.6.11 (88%), Linux 2.6.18 (88%), Linux 2.6.32 (88%), Avaya Communication Manager (Linux 2.6.11) (88%), Linux 3.0 (88%), Linux 3.2 (88%)
+No exact OS matches for host (test conditions non-ideal).
+
+TRACEROUTE (using port 443/tcp)
+HOP RTT      ADDRESS
+1   37.00 ms 10.136.78.187
+2   ... 30
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul 20 09:16:33 2026 -- 1 IP address (1 host up) scanned in 167.16 seconds
